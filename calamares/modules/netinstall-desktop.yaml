@@ -1,900 +1,466 @@
-- name: "Desktop: Awesome"
-  description: "Installs awesome desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-awesome-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - awesome
-    - dmenu
-    - lxappearance
-    - picom-git
-    - polkit-gnome
-    - rofi-lbonn-wayland
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - vicious
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Bspwm"
-  description: "Installs bspwm desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-bspwm-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-polybar-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - awesome-terminal-fonts
-    - bspwm
-    - dmenu
-    - lxappearance
-    - picom-git
-    - polkit-gnome
-    - polybar
-    - rofi-lbonn-wayland
-    - sutils-git
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-    - xtitle-git
-- name: "Desktop: Budgie"
-  description: "Installs budgie desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - arcolinux-budgie-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-guake-autostart-git
-    - arcolinux-root-git
-    - budgie-desktop
-    - budgie-extras
-    - guake
-- name: "Desktop: Cinnamon"
-  description: "Installs cinnamon desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - arcolinux-cinnamon-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-root-git
-    - arconet-xfce
-    - cinnamon
-    - cinnamon-translations
-    - gnome-screenshot
-    - gnome-system-monitor
-    - gnome-terminal
-    - iso-flag-png
-    - mintlocale
-    - nemo-fileroller
-    - xed
-- name: "Desktop: Chadwm"
-  description: "Installs chadwm desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - alacritty
-    - archlinux-logout-git
-    - arcolinux-chadwm-git
-    - arcolinux-chadwm-pacman-hook-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - dash
-    - dmenu
-    - eww
-    - lxappearance
-    - picom-git
-    - polkit-gnome
-    - rofi-lbonn-wayland
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - ttf-meslo-nerd-font-powerlevel10k
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Cwm"
-  description: "Installs cwm desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-cwm-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-polybar-git
-    - arcolinux-powermenu-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - cwm
-    - dmenu
-    - lxappearance
-    - picom-git
-    - polybar
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Dk"
-  description: "Installs dk desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-dk-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-polybar-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - dk
-    - dmenu
-    - lxappearance
-    - nerd-fonts-source-code-pro
-    - picom-git
-    - polkit-gnome
-    - polybar
-    - rofi-lbonn-wayland
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Dusk"
-  description: "Installs dusk desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-dusk-git
-    - arcolinux-dusk-pacman-hook-git
-    - arcolinux-dwm-st-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - dmenu
-    - lxappearance
-    - picom-git
-    - polkit-gnome
-    - rofi-lbonn-wayland
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Dwm"
-  description: "Installs dwm desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-dwm-git
-    - arcolinux-dwm-pacman-hook-git
-    - arcolinux-dwm-slstatus-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - dmenu
-    - gsimplecal
-    - lxappearance
-    - picom-git
-    - polkit-gnome
-    - rofi-lbonn-wayland
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Fvwm3"
-  description: "Installs fvwm3 desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-fvwm3-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-polybar-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - dmenu
-    - fvwm3-git
-    - gsimplecal
-    - picom-git
-    - polkit-gnome
-    - polybar
-    - rofi-lbonn-wayland
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xdgmenumaker-git
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Gnome"
-  description: "Installs gnome desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-gnome-git
-    - arcolinux-root-git
-    - extension-manager-git
-    - gnome
-    - gnome-tweaks
-- name: "Desktop: Gnome extra - meta package"
-  description: "Installs gnome-extra meta package"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - gnome-extra
-- name: "Desktop: Herbstluftwm"
-  description: "Installs herbstluftwm desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-herbstluftwm-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-polybar-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - awesome-terminal-fonts
-    - dmenu
-    - herbstluftwm
-    - lxappearance
-    - picom-git
-    - polkit-gnome
-    - polybar
-    - rofi-lbonn-wayland
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-    - xtitle-git
-- name: "Desktop: i3"
-  description: "Installs i3 desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-i3wm-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-nitrogen-git
-    - arcolinux-polybar-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - autotiling
-    - dmenu
-    - i3-wm
-    - i3blocks
-    - i3status
-    - lxappearance
-    - nitrogen
-    - picom-git
-    - polkit-gnome
-    - polybar
-    - rofi-lbonn-wayland
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Icewm"
-  description: "Installs icewm desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-icewm-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - dmenu
-    - icewm
-    - lxappearance
-    - picom-git
-    - polkit-gnome
-    - rofi-lbonn-wayland
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xdgmenumaker-git
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Jwm"
-  description: "Installs jwm desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-jwm-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - dmenu
-    - jwm
-    - lxappearance
-    - picom-git
-    - polkit-gnome
-    - rofi-lbonn-wayland
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xdgmenumaker-git
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Leftwm"
-  description: "Installs leftwm desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - a-candy-beauty-icon-theme-git
-    - archlinux-logout-git    
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-leftwm-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-polybar-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - dmenu
-    - leftwm-git
-    - leftwm-theme-git
-    - lxappearance
-    - nerd-fonts-source-code-pro
-    - nitrogen
-    - picom-git
-    - polkit-gnome
-    - polybar
-    - rofi-lbonn-wayland
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-media-tags-plugin
-    - thunar-volman
-    - ttf-fantasque-sans-mono
-    - ttf-iosevka-nerd
-    - ttf-material-design-iconic-font
-    - ttf-meslo-nerd-font-powerlevel10k
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Lxqt"
-  description: "Installs lxqt desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-lxqt-git
-    - arcolinux-powermenu-git
-    - arcolinux-root-git
-    - arconet-xfce
-    - dmenu
-    - ksuperkey
-    - lxappearance
-    - lxqt
-    - lxqt-arc-dark-theme-git
-    - obconf-qt
-    - pavucontrol-qt
-    - picom-git
-    - polkit-gnome
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-    - xscreensaver
-- name: "Desktop: Mate"
-  description: "Installs mate desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-mate-git
-    - arcolinux-root-git
-    - arconet-xfce
-    - dmenu
-    - gnome-screenshot
-    - mate
-    - mate-extra
-    - mate-tweak
-- name: "Desktop: Nimdow"
-  description: "Installs nimdow desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - alacritty
-    - archlinux-logout-git
-    - arcolinux-btop-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-nimdow-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - btop
-    - dmenu
-    - lxappearance
-    - nim
-    - nimdow-bin
-    - nitrogen
-    - picom-git
-    - polkit-gnome
-    - rofi-lbonn-wayland
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-media-tags-plugin
-    - thunar-volman
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Openbox"
-  description: "Installs openbox desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-common-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-docs-git
-    - arcolinux-geany-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-nitrogen-git
-    - arcolinux-obmenu-generator-git
-    - arcolinux-openbox-git
-    - arcolinux-openbox-themes-git
-    - arcolinux-pipemenus-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-tint2-git
-    - arcolinux-tint2-themes-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - dmenu
-    - geany
-    - gnome-screenshot
-    - gsimplecal
-    - gtk2-perl
-    - lxappearance-obconf
-    - lxrandr
-    - nitrogen
-    - obconf
-    - obmenu-generator
-    - obmenu3
-    - openbox
-    - openbox-arc-git
-    - openbox-themes-pambudi-git
-    - perl-linux-desktopfiles
-    - picom-git
-    - polkit-gnome
-    - rofi-lbonn-wayland
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - tint2
-    - volumeicon
-    - xcape
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-    - yad
-- name: "Desktop: Plasma minimal"
-  description: "Installs plasma desktop with essential packages"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - arcolinux-arc-kde
-    - arcolinux-plasma-keybindings-git
-    - arcolinux-plasma-servicemenus-git
-    - arcolinux-plasma-theme-candy-beauty-arc-dark-git
-    - arcolinux-plasma-theme-candy-beauty-nordic-git
-    - arcolinux-plasma-theme-surfn-arc-dark-git
-    - arcolinux-plasma-theme-surfn-nordic-git
-    - arcolinux-root-git
-    - ark
-    - breeze
-    - cryfs
-    - discover
-    - dolphin
-    - dolphin-plugins
-    - encfs
-    - ffmpegthumbs
-    - gocryptfs
-    - gwenview
-    - kate
-    - kde-gtk-config
-    - kdeconnect
-    - kdenetwork-filesharing
-    - ktorrent
-    - ocs-url
-    - okular
-    - packagekit-qt6
-    - plasma
-    - spectacle
-    - surfn-plasma-dark-icons-git
-    - surfn-plasma-light-icons-git
-    - yakuake
-- name: "Desktop: Plasma full"
-  description: "Installs plasma desktop with all (meta) packages"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - arcolinux-arc-kde
-    - arcolinux-plasma-keybindings-git
-    - arcolinux-plasma-servicemenus-git
-    - arcolinux-plasma-theme-candy-beauty-arc-dark-git
-    - arcolinux-plasma-theme-candy-beauty-nordic-git
-    - arcolinux-plasma-theme-surfn-arc-dark-git
-    - arcolinux-plasma-theme-surfn-nordic-git
-    - arcolinux-root-git
-    - ark
-    - breeze
-    - cryfs
-    - discover
-    - dolphin
-    - dolphin-plugins
-    - encfs
-    - ffmpegthumbs
-    - gocryptfs
-    - gwenview
-    - kate
-    - kde-accessibility-meta
-    - kde-applications-meta
-    - kde-development-environment-meta
-    - kde-education-meta
-    - kde-games-meta
-    - kde-graphics-meta
-    - kde-gtk-config
-    - kde-multimedia-meta
-    - kde-network-meta
-    - kde-office-meta
-    - kde-pim-meta
-    - kde-sdk-meta
-    - kde-system-meta
-    - kde-utilities-meta
-    - kdeconnect
-    - kdenetwork-filesharing
-    - kdevelop-meta
-    - kdevelop-meta   
-    - ktorrent
-    - ocs-url
-    - okular
-    - packagekit-qt6
-    - partitionmanager
-    - plasma-meta
-    - spectacle
-    - surfn-plasma-dark-icons-git
-    - surfn-plasma-light-icons-git
-    - yakuake
-- name: "Desktop: Qtile"
-  description: "Installs qtile desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-powermenu-git
-    - arcolinux-qtile-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arconet-xfce
-    - awesome-terminal-fonts
-    - dmenu
-    - lxappearance
-    - picom-git
-    - polkit-gnome
-    - python-psutil
-    - python-setuptools
-    - qtile
-    - rofi-lbonn-wayland
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xcb-util-cursor
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Wmderland"
-  description: "Installs wmderland desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-polybar-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arcolinux-wmderland-git
-    - arconet-xfce
-    - dmenu
-    - lxappearance
-    - picom-git
-    - polkit-gnome
-    - polybar
-    - rofi-lbonn-wayland
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - wmderland-git
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Xfce4"
-  description: "Installs xfce4 desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-root-git
-    - arconet-xfce
-    - dmenu
-    - xfce4
-    - xfce4-goodies
-- name: "Desktop: Xmonad"
-  description: "Installs xmonad desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - archlinux-logout-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-polybar-git
-    - arcolinux-powermenu-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-volumeicon-git
-    - arcolinux-xmonad-polybar-git
-    - arconet-xfce
-    - awesome-terminal-fonts
-    - dmenu
-    - haskell-dbus
-    - lxappearance
-    - perl-checkupdates-aur
-    - perl-www-aur
-    - picom-git
-    - playerctl
-    - polybar
-    - pulseaudio
-    - rofi-lbonn-wayland
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-    - xmonad
-    - xmonad-contrib
-    - xmonad-log
-    - xmonad-utils
+groups:
+  - name: "Officially Supported Desktop Environments"
+    description: "Desktop environments officially available in Arch repositories."
+    hidden: false
+    selected: false
+    critical: false
+    subgroups:
+      - name: "Budgie"
+        description: "Focuses on simplicity and elegance."
+        selected: false
+        packages:
+          - budgie
+      - name: "Cinnamon"
+        description: "A traditional user experience. A fork of GNOME 3."
+        selected: false
+        packages:
+          - cinnamon
+      - name: "COSMIC"
+        description: "A Rust-based desktop environment created by System76."
+        selected: false
+        packages:
+          - cosmic
+      - name: "Deepin"
+        description: "Intuitive and elegant design."
+        selected: false
+        packages:
+          - deepin
+      - name: "Enlightenment"
+        description: "Efficient window manager with essential desktop components."
+        selected: false
+        packages:
+          - enlightenment
+      - name: "GNOME"
+        description: "Attractive and intuitive desktop."
+        selected: false
+        packages:
+          - gnome
+      - name: "GNOME Flashback"
+        description: "A shell for GNOME 3 with a traditional layout."
+        selected: false
+        packages:
+          - gnome-flashback
+      - name: "KDE Plasma"
+        description: "A familiar, highly customizable working environment."
+        selected: false
+        packages:
+          - plasma
+      - name: "KDE Plasma Mobile"
+        description: "Mobile-focused desktop environment based on Wayland."
+        selected: false
+        packages:
+          - plasma-mobile
+      - name: "LXDE"
+        description: "Fast and energy-saving lightweight desktop environment."
+        selected: false
+        packages:
+          - lxde
+      - name: "LXQt"
+        description: "A lightweight, modular, blazing-fast Qt port of LXDE."
+        selected: false
+        packages:
+          - lxqt
+      - name: "MATE"
+        description: "Intuitive and attractive desktop using traditional metaphors."
+        selected: false
+        packages:
+          - mate
+      - name: "Pantheon"
+        description: "Default desktop environment for elementary OS."
+        selected: false
+        packages:
+          - pantheon
+      - name: "Phosh"
+        description: "Wayland shell user interface based on GNOME."
+        selected: false
+        packages:
+          - phosh
+      - name: "Sugar"
+        description: "Learning platform designed for children."
+        selected: false
+        packages:
+          - sugar
+          - sugar-fructose
+      - name: "Xfce"
+        description: "Traditional UNIX philosophy of modularity and re-usability."
+        selected: false
+        packages:
+          - xfce4
+
+  - name: "Unofficially Supported Desktop Environments"
+    description: "Desktop environments usually found in the AUR."
+    hidden: false
+    selected: false
+    critical: false
+    subgroups:
+      - name: "CDE"
+        description: "The Common Desktop Environment for Unix."
+        selected: false
+        packages:
+          - cdesktopenv
+      - name: "Cutefish"
+        description: "Focus on simplicity, beauty, and practicality (Qt 5)."
+        selected: false
+        packages:
+          - cutefish-meta
+      - name: "Lumina"
+        description: "Lightweight desktop environment written in Qt 5."
+        selected: false
+        packages:
+          - lumina-desktop
+      - name: "PaperDE"
+        description: "Desktop environment built on top of Qt 6 and Wayfire."
+        selected: false
+        packages:
+          - paperde
+      - name: "theDesk"
+        description: "Transparent desktop environment using Qt 6 and KWin."
+        selected: false
+        packages:
+          - thedesk
+      - name: "Trinity (TDE)"
+        description: "Retains the overall KDE 3.5 computing style."
+        selected: false
+        packages:
+          - tde-base
+      - name: "Orbitiny"
+        description: "Innovative new desktop environment for X11."
+        selected: false
+        packages:
+          - orbitiny-desktop-bin
+
+  - name: "Stacking Window Managers"
+    description: "Traditional window managers where windows overlap."
+    hidden: false
+    selected: false
+    critical: false
+    subgroups:
+      - name: "2bwm"
+        description: "Fast floating window manager with 2 borders."
+        selected: false
+        packages:
+          - 2bwm
+      - name: "9wm"
+        description: "X11 window manager inspired by Plan 9's rio."
+        selected: false
+        packages:
+          - 9wm
+      - name: "aewm++"
+        description: "Minimal window manager written in C++."
+        selected: false
+        packages:
+          - aewm++
+      - name: "AfterStep"
+        description: "Based on the NeXTStep interface."
+        selected: false
+        packages:
+          - afterstep
+      - name: "berry"
+        description: "Bite-sized window manager written in C."
+        selected: false
+        packages:
+          - berry
+      - name: "Blackbox"
+        description: "Fast, lightweight window manager for X."
+        selected: false
+        packages:
+          - blackbox
+      - name: "Compiz"
+        description: "OpenGL compositing manager."
+        selected: false
+        packages:
+          - compiz
+      - name: "CTWM"
+        description: "Claude's Tab Window Manager."
+        selected: false
+        packages:
+          - ctwm
+      - name: "cwm"
+        description: "Simple window manager offering window searching."
+        selected: false
+        packages:
+          - cwm
+      - name: "E16"
+        description: "Predecessor of Enlightenment."
+        selected: false
+        packages:
+          - e16
+      - name: "eggwm"
+        description: "A lightweight Qt window manager."
+        selected: false
+        packages:
+          - eggwm-qt5
+      - name: "EMWM"
+        description: "Fork of the Motif Window Manager."
+        selected: false
+        packages:
+          - emwm
+      - name: "evilwm"
+        description: "Minimalist window manager for the X Window System."
+        selected: false
+        packages:
+          - evilwm
+      - name: "Fluxbox"
+        description: "Very light on resources and easy to handle."
+        selected: false
+        packages:
+          - fluxbox
+      - name: "FLWM"
+        description: "Lightweight, FLTK-based window manager."
+        selected: false
+        packages:
+          - flwm
+      - name: "FVWM"
+        description: "Powerful ICCCM-compliant multiple virtual desktop manager."
+        selected: false
+        packages:
+          - fvwm3
+      - name: "Gala"
+        description: "Beautiful window manager from elementary OS."
+        selected: false
+        packages:
+          - gala
+      - name: "Goomwwm"
+        description: "Cleanroom X11 window manager in C."
+        selected: false
+        packages:
+          - goomwwm
+      - name: "IceWM"
+        description: "Focuses on speed, simplicity, and staying out of the way."
+        selected: false
+        packages:
+          - icewm
+      - name: "jbwm"
+        description: "Based on evilwm, focused on small binary size."
+        selected: false
+        packages:
+          - jbwm
+      - name: "JWM"
+        description: "Written in C and uses only Xlib at a minimum."
+        selected: false
+        packages:
+          - jwm
+      - name: "Karmen"
+        description: "Designed to 'just work' with no config file."
+        selected: false
+        packages:
+          - karmen
+      - name: "KWin"
+        description: "Standard KDE window manager and compositor."
+        selected: false
+        packages:
+          - kwin-x11
+      - name: "lwm"
+        description: "Tries to keep out of your face. No icons, no bars."
+        selected: false
+        packages:
+          - lwm
+      - name: "Marco"
+        description: "The MATE window manager."
+        selected: false
+        packages:
+          - marco
+      - name: "Metacity"
+        description: "Quiet, small, and stable."
+        selected: false
+        packages:
+          - metacity
+      - name: "Muffin"
+        description: "Window and compositing manager for Cinnamon."
+        selected: false
+        packages:
+          - muffin
+      - name: "MWM"
+        description: "Motif Window Manager."
+        selected: false
+        packages:
+          - openmotif
+      - name: "Openbox"
+        description: "Highly configurable window manager."
+        selected: false
+        packages:
+          - openbox
+      - name: "PekWM"
+        description: "Expanded feature-set including window grouping."
+        selected: false
+        packages:
+          - pekwm
+      - name: "progman"
+        description: "Modeled after the Windows 3 era."
+        selected: false
+        packages:
+          - progman
+      - name: "Sawfish"
+        description: "Extensible window manager using Lisp."
+        selected: false
+        packages:
+          - sawfish
+      - name: "sowm"
+        description: "Simple Opinionated Window Manager."
+        selected: false
+        packages:
+          - sowm
+      - name: "TinyWM"
+        description: "Created as an exercise in minimalism."
+        selected: false
+        packages:
+          - tinywm
+      - name: "twm"
+        description: "Default fallback used by Xorg since 1989."
+        selected: false
+        packages:
+          - xorg-twm
+      - name: "UWM"
+        description: "Original look and feel, no title bars."
+        selected: false
+        packages:
+          - ude
+      - name: "VTWM"
+        description: "TWM descendant implementing a Virtual Desktop."
+        selected: false
+        packages:
+          - vtwm
+      - name: "WindowLab"
+        description: "Small and simple window manager of novel design."
+        selected: false
+        packages:
+          - windowlab
+      - name: "Window Maker"
+        description: "Reproduces the elegant NEXTSTEP user interface."
+        selected: false
+        packages:
+          - windowmaker
+      - name: "wm2"
+        description: "Unusual style of window decoration."
+        selected: false
+        packages:
+          - wm2
+      - name: "wmx"
+        description: "Based on wm2 with experimental features."
+        selected: false
+        packages:
+          - wmx
+      - name: "worm"
+        description: "Dynamic, tag-based window manager written in Nim."
+        selected: false
+        packages:
+          - worm
+      - name: "Xfwm"
+        description: "The Xfce window manager."
+        selected: false
+        packages:
+          - xfwm4
+
+  - name: "Tiling Window Managers"
+    description: "Window managers that arrange windows in non-overlapping grids."
+    hidden: false
+    selected: false
+    critical: false
+    subgroups:
+      - name: "Bspwm"
+        description: "Represents windows as the leaves of a full binary tree."
+        selected: false
+        packages:
+          - bspwm
+      - name: "EXWM"
+        description: "Full-featured tiling X window manager for Emacs."
+        selected: false
+        packages:
+          - emacs-exwm
+      - name: "Herbstluftwm"
+        description: "Manual tiling window manager using Xlib and Glib."
+        selected: false
+        packages:
+          - herbstluftwm
+      - name: "i3"
+        description: "Completely written from scratch, features a tree metaphor."
+        selected: false
+        packages:
+          - i3-wm
+      - name: "Larswm"
+        description: "A tiling window manager based on 9wm."
+        selected: false
+        packages:
+          - larswm
+      - name: "LeftWM"
+        description: "A tiling window manager written in Rust."
+        selected: false
+        packages:
+          - leftwm
+      - name: "Matchbox"
+        description: "Intended for embedded systems, shows one window at a time."
+        selected: false
+        packages:
+          - matchbox-window-manager
+      - name: "Notion"
+        description: "Tiling, tabbed window manager."
+        selected: false
+        packages:
+          - notion
+      - name: "Ratpoison"
+        description: "No fat library dependencies, no fancy graphics, no mouse needed."
+        selected: false
+        packages:
+          - ratpoison
+      - name: "Stumpwm"
+        description: "Keyboard-driven manager written entirely in Common Lisp."
+        selected: false
+        packages:
+          - stumpwm
+      - name: "ZWM"
+        description: "Minimalistic tiling window manager written in C."
+        selected: false
+        packages:
+          - zwm-git
+
+  - name: "Dynamic Window Managers"
+    description: "Window managers that can dynamically switch between layouts."
+    hidden: false
+    selected: false
+    critical: false
+    subgroups:
+      - name: "awesome"
+        description: "Highly configurable, next generation framework in Lua."
+        selected: false
+        packages:
+          - awesome
+      - name: "dk"
+        description: "List-based tiling window manager."
+        selected: false
+        packages:
+          - dk
+      - name: "dwm"
+        description: "Manages windows in tiled, monocle and floating layouts."
+        selected: false
+        packages:
+          - dwm
+      - name: "echinus"
+        description: "Simple and lightweight tiling/floating manager."
+        selected: false
+        packages:
+          - echinus
+      - name: "FrankenWM"
+        description: "monsterwm with floating done right."
+        selected: false
+        packages:
+          - frankenwm
+      - name: "Qtile"
+        description: "Full-featured, hackable tiling window manager in Python."
+        selected: false
+        packages:
+          - qtile
+      - name: "spectrwm"
+        description: "Small dynamic tiling window manager, inspired by xmonad and dwm."
+        selected: false
+        packages:
+          - spectrwm
+      - name: "Wingo"
+        description: "True hybrid window manager supporting per-monitor workspaces (Go)."
+        selected: false
+        packages:
+          - wingo-git
+      - name: "xmonad"
+        description: "Dynamically tiling X11 window manager configured in Haskell."
+        selected: false
+        packages:
+          - xmonad
